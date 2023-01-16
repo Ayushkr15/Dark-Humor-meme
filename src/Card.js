@@ -6,7 +6,7 @@ const Card = () => {
   const [meme, setMeme] = useState([]);
   const [loading, setLoading] = useState(true);
   const [limit, setLimit] = useState(3);
-  const [type, setType] = useState("today");
+  const [type, setType] = useState("day");
  
 
   const fetchMeme = async () => {
